@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISAAC_NEWTON.MainPage"
+             BackgroundColor="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <!-- La primera fila contendrá el título fijo -->
+            <RowDefinition Height="Auto" />
+            <!-- La segunda fila contendrá el contenido desplazable -->
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Título fijo en la primera fila -->
+        <Frame BackgroundColor="#D9D9DA" CornerRadius="8" Padding="1" HorizontalOptions="CenterAndExpand">
+        <Label Text="𝑰𝑺𝑨𝑨𝑪 𝑵𝑬𝑾𝑻𝑶𝑵" TextColor="Black" FontSize="35" HorizontalOptions="Center" />
+        </Frame>
+
+        <!-- Contenido desplazable en la segunda fila -->
+        <ScrollView Grid.Row="1">
+            <StackLayout HorizontalOptions="CenterAndExpand">
+                <Image Source="isaac.jpg" Aspect="AspectFit" WidthRequest="390" HeightRequest="200" />
+                <Frame BackgroundColor="#437DF9" CornerRadius="17" Padding="5" HorizontalOptions="CenterAndExpand">
+                    <!-- Fondo de color azul claro -->
+                    <Label Text="𝘚𝘰𝘮𝘰𝘴 𝘶𝘯𝘢 𝘥𝘦 𝘭𝘢𝘴 𝘪𝘯𝘴𝘵𝘪𝘵𝘶𝘤𝘪𝘰𝘯𝘦𝘴 𝘮𝘢𝘴 𝘱𝘳𝘦𝘴𝘵𝘪𝘨𝘪𝘰𝘴𝘢𝘴 𝘥𝘦 𝘏𝘜𝘈𝘕𝘜𝘊𝘖 𝘣𝘳𝘪𝘯𝘥𝘳𝘢𝘯𝘤𝘥𝘰 𝘶𝘯 𝘦𝘥𝘶𝘤𝘢𝘤𝘪𝘰𝘯 𝘥𝘦 𝘤𝘢𝘭𝘪𝘥𝘢𝘥 𝘤𝘰𝘯 𝘥𝘰𝘤𝘦𝘯𝘵𝘦𝘴 𝘥𝘦 𝘢𝘭𝘵𝘢 𝘤𝘢𝘱𝘢𝘤𝘪𝘥𝘢𝘥 𝘥𝘪𝘳𝘦𝘤𝘵𝘪𝘷𝘰𝘴 𝘱𝘳𝘦𝘴𝘵𝘪𝘨𝘪𝘰𝘴𝘰𝘴" TextColor="Black" FontSize="15" />
+                </Frame>
+               
+            <Label></Label>
+            <Label></Label>
+            <!-- 𝗗𝗜𝗥𝗘𝗖𝗧𝗜𝗩𝗢𝗦 -->
+
+                <Label Text="𝗗𝗜𝗥𝗘𝗖𝗧𝗜𝗩𝗢𝗦" TextColor="Black" FontSize="35" HorizontalOptions="Center" />
+            <Label></Label>
+            <Image Source="DIRECTOR.jpg" Aspect="AspectFit" WidthRequest="390" HeightRequest="200" />
+            <Label Text="𝐅𝐢𝐬𝐡𝐞𝐫 𝐉𝐮𝐬𝐭𝐢𝐧𝐢𝐚𝐧𝐨 𝐂𝐡á𝐯𝐞𝐳'𝐃𝐈𝐑𝐄𝐂𝐓𝐎𝐑'" TextColor="Black" FontSize="20" HorizontalOptions="Center" />
+            <Label></Label>
+            <Image Source="DIRECTOR.jpg" Aspect="AspectFit" WidthRequest="390" HeightRequest="200" />
+            <Label Text="---------------------------------------" TextColor="Black" FontSize="20" HorizontalOptions="Center" />
+            <Label></Label>
+            <Image Source="DIRECTOR.jpg" Aspect="AspectFit" WidthRequest="390" HeightRequest="200" />
+            <Label Text="---------------------------------------" TextColor="Black" FontSize="20" HorizontalOptions="Center" />
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <!-- NIVELES ACADEMICOS  -->
+            <Label Text="𝗡𝗜𝗩𝗘𝗟𝗘𝗦 𝗔𝗖𝗔𝗗𝗘𝗠𝗜𝗖𝗢𝗦" TextColor="Black" FontSize="33" HorizontalOptions="Center" />
+            <Label></Label>
+            <Label></Label>
+            <Label Text="INICIAL" TextColor="Black" FontSize="20" HorizontalOptions="Center" />
+            <Image Source="inicial.jpg" Aspect="AspectFit" WidthRequest="390" HeightRequest="200" />
+            <Frame BackgroundColor="#E7EDE3" CornerRadius="17" Padding="5" HorizontalOptions="CenterAndExpand">
+                <Label Text=" Brindando una educación de calidad que fomente el desarrollo temprano de habilidades cognitivas y socioemocionales en los niños pequeños" TextColor="Black" FontSize="20" HorizontalOptions="Center" />
+            </Frame>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label Text="PRIMARIA" TextColor="Black" FontSize="20" HorizontalOptions="Center" />
+            <Image Source="primaria.jpg" Aspect="AspectFit" WidthRequest="390" HeightRequest="200" />
+            <Frame BackgroundColor="#E7EDE3" CornerRadius="17" Padding="5" HorizontalOptions="CenterAndExpand">
+                <Label Text=" Brindando una educación de calidad que desarrolle habilidades académicas y socioemocionales en los estudiantes" TextColor="Black" FontSize="20" HorizontalOptions="Center" />
+            </Frame>
+            <Label></Label>
+            <Label></Label>
+            <Label></Label>
+            <Label Text="SECUNDARIA" TextColor="Black" FontSize="20" HorizontalOptions="Center" />
+            <Image Source="secundaria.jpg" Aspect="AspectFit" WidthRequest="390" HeightRequest="200" />
+            <Frame BackgroundColor="#E7EDE3" CornerRadius="17" Padding="5" HorizontalOptions="CenterAndExpand">
+                <Label Text="Brindando una educación secundaria de calidad que desarrolle habilidades académicas y socioemocionales en los estudiantes." TextColor="Black" FontSize="20" HorizontalOptions="Center" />
+            </Frame>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <!-- Agregar una imagen como fondo -->
+                <Image Source="matriculate.jpg" Aspect="AspectFill" WidthRequest="200" HeightRequest="100">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Matricular_Clicked" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+                <Label></Label>
+            <Label></Label>
+                <Label Text="VISITANOS EN NUESTRAS REDES SOCIALES" TextColor="Black" FontSize="15" HorizontalOptions="Center" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Image Source="facebook.jpg" Aspect="AspectFill" WidthRequest="70" HeightRequest="10">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Button_Clicked" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="youtube.jpg" Aspect="AspectFill" WidthRequest="70" HeightRequest="70">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Button_Clicked2" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="web.jpg" Aspect="AspectFill" WidthRequest="70" HeightRequest="10">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Button_Clicked3" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+
+            <Label></Label>
+            <Label></Label>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
